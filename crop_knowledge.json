@@ -1,0 +1,918 @@
+{
+  "database_name": "DesertCrop Navigator - Rajasthan Crop Knowledge Database",
+  "database_version": "0.2",
+  "purpose": "Evidence-based agricultural decision support for Rajasthan",
+  "crops": [
+    {
+      "crop_id": "cotton",
+      "crop_name_english": "Cotton",
+      "crop_name_hindi": "कपास",
+      "crop_category": "Fibre crop",
+      "farming_systems": [
+        "open_field",
+        "irrigated"
+      ],
+      "suitable_districts": [],
+      "growing_seasons": [
+        "Kharif"
+      ],
+      "soil_requirements": {
+        "soil_types": [
+          "Avoid waterlogged and saline soils; sandy soils are unsuitable under the cited North Zone guidance."
+        ],
+        "ph_range": null,
+        "salinity_tolerance": null,
+        "other_requirements": "Good drainage is important."
+      },
+      "water_requirements": {
+        "rainfall_mm_range": null,
+        "irrigation_needs": "Depends on rainfall, soil and local recommendations.",
+        "water_quality_requirements": null
+      },
+      "climate_requirements": {
+        "temperature_c_range": [
+          21,
+          32
+        ],
+        "heat_tolerance": null,
+        "drought_tolerance": null
+      },
+      "cultivation": {
+        "sowing_window": "North Zone guidance advises completing sowing by 15 May; confirm the appropriate local sowing window for each Rajasthan district and variety.",
+        "crop_duration_days": null,
+        "cultivation_method": "Use locally recommended varieties and follow soil-test-based nutrient management.",
+        "nutrient_management": "Use balanced nutrition and avoid excessive nitrogen.",
+        "major_risks": [
+          "Waterlogging",
+          "Pests and diseases"
+        ]
+      },
+      "production": {
+        "yield_range": null,
+        "yield_unit": null,
+        "conditions_and_assumptions": "No Rajasthan district-specific yield estimate entered yet."
+      },
+      "economics": {
+        "cultivation_cost_range": null,
+        "market_price": null,
+        "potential_return_range": null,
+        "currency": "INR",
+        "price_date": null,
+        "assumptions": null
+      },
+      "crop_rotation": {
+        "possible_preceding_crops": [],
+        "possible_following_crops": [
+          "Wheat",
+          "Barley",
+          "Mustard",
+          "Chickpea"
+        ],
+        "cautions": "Rotation options cited in North Zone guidance require local validation."
+      },
+      "evidence": {
+        "sources": [
+          {
+            "title": "Package of Practices for Cotton Cultivation in North Cotton Growing Zone of India",
+            "organization": "ICAR-CICR, Regional Station, Sirsa",
+            "url": "https://www.cicr.org.in/wp-content/uploads/POP-NZ-01.pdf",
+            "publication_period": "2023-24"
+          }
+        ],
+        "last_reviewed": "2026-10-30",
+        "confidence": "provisional",
+        "validation_notes": "General North Zone guidance; district-level suitability and sowing dates in Rajasthan still require validation."
+      }
+    },
+    {
+      "crop_id": "cucumber_protected",
+      "crop_name_english": "Cucumber",
+      "crop_name_hindi": "खीरा",
+      "crop_category": "Vegetable",
+      "farming_systems": [
+        "protected_cultivation",
+        "polyhouse",
+        "net_house"
+      ],
+      "suitable_districts": [],
+      "growing_seasons": [],
+      "soil_requirements": {
+        "soil_types": [],
+        "ph_range": null,
+        "salinity_tolerance": null,
+        "other_requirements": "Test soil before planning a protected-cultivation crop."
+      },
+      "water_requirements": {
+        "rainfall_mm_range": null,
+        "irrigation_needs": "Requires a locally designed irrigation plan.",
+        "water_quality_requirements": null
+      },
+      "climate_requirements": {
+        "temperature_c_range": null,
+        "heat_tolerance": null,
+        "drought_tolerance": null
+      },
+      "cultivation": {
+        "sowing_window": null,
+        "crop_duration_days": null,
+        "cultivation_method": "Protected cultivation; structure and management must suit local conditions.",
+        "nutrient_management": "Determine from soil and water tests and crop guidance.",
+        "major_risks": [
+          "Protected-structure investment",
+          "Pests and diseases",
+          "Market-price variation"
+        ]
+      },
+      "production": {
+        "yield_range": null,
+        "yield_unit": "kg/m²",
+        "conditions_and_assumptions": "CAZRI publishes structure-specific yield information; figures should be verified before use in recommendations."
+      },
+      "economics": {
+        "cultivation_cost_range": null,
+        "market_price": null,
+        "potential_return_range": null,
+        "currency": "INR",
+        "price_date": null,
+        "assumptions": null
+      },
+      "crop_rotation": {
+        "possible_preceding_crops": [],
+        "possible_following_crops": [],
+        "cautions": "Plan rotation and disease management with local horticultural guidance."
+      },
+      "evidence": {
+        "sources": [
+          {
+            "title": "Higher Income from Protected Cultivation",
+            "organization": "ICAR-CAZRI, Jodhpur",
+            "url": "https://www.cazri.res.in/publications/technologies/T7E.pdf",
+            "publication_period": "2021 factsheet"
+          }
+        ],
+        "last_reviewed": "2026-10-30",
+        "confidence": "provisional",
+        "validation_notes": "Protected-cultivation evidence exists, but district suitability, local costs and current market returns remain unverified."
+      }
+    },
+    {
+      "crop_id": "tomato_protected",
+      "crop_name_english": "Tomato",
+      "crop_name_hindi": "टमाटर",
+      "crop_category": "Vegetable",
+      "farming_systems": [
+        "protected_cultivation",
+        "polyhouse",
+        "net_house"
+      ],
+      "suitable_districts": [],
+      "growing_seasons": [],
+      "soil_requirements": {
+        "soil_types": [],
+        "ph_range": null,
+        "salinity_tolerance": null,
+        "other_requirements": "Test soil before planning a protected-cultivation crop."
+      },
+      "water_requirements": {
+        "rainfall_mm_range": null,
+        "irrigation_needs": "Requires a locally designed irrigation plan.",
+        "water_quality_requirements": null
+      },
+      "climate_requirements": {
+        "temperature_c_range": null,
+        "heat_tolerance": null,
+        "drought_tolerance": null
+      },
+      "cultivation": {
+        "sowing_window": null,
+        "crop_duration_days": null,
+        "cultivation_method": "Protected cultivation; select the structure, variety and planting window for local conditions.",
+        "nutrient_management": "Determine from soil and water tests and crop guidance.",
+        "major_risks": [
+          "Protected-structure investment",
+          "Pests and diseases",
+          "Market-price variation"
+        ]
+      },
+      "production": {
+        "yield_range": null,
+        "yield_unit": "kg/m²",
+        "conditions_and_assumptions": "CAZRI publishes structure-specific yield information; local validation is needed."
+      },
+      "economics": {
+        "cultivation_cost_range": null,
+        "market_price": null,
+        "potential_return_range": null,
+        "currency": "INR",
+        "price_date": null,
+        "assumptions": null
+      },
+      "crop_rotation": {
+        "possible_preceding_crops": [],
+        "possible_following_crops": [],
+        "cautions": "Plan rotation and disease management with local horticultural guidance."
+      },
+      "evidence": {
+        "sources": [
+          {
+            "title": "Higher Income from Protected Cultivation",
+            "organization": "ICAR-CAZRI, Jodhpur",
+            "url": "https://www.cazri.res.in/publications/technologies/T7E.pdf",
+            "publication_period": "2021 factsheet"
+          }
+        ],
+        "last_reviewed": "2026-10-30",
+        "confidence": "provisional",
+        "validation_notes": "Protected-cultivation evidence exists, but district suitability, local costs and current market returns remain unverified."
+      }
+    },
+    {
+      "crop_id": "bajra",
+      "crop_name_english": "Pearl Millet",
+      "crop_name_hindi": "बाजरा",
+      "crop_category": "cereal",
+      "farming_systems": [
+        "open_field",
+        "rainfed"
+      ],
+      "suitable_districts": [],
+      "growing_seasons": [
+        "Kharif"
+      ],
+      "soil_requirements": {
+        "soil_types": [],
+        "ph_range": null,
+        "salinity_tolerance": null,
+        "other_requirements": null
+      },
+      "water_requirements": {
+        "rainfall_mm_range": null,
+        "irrigation_needs": null,
+        "water_quality_requirements": null
+      },
+      "climate_requirements": {
+        "temperature_c_range": null,
+        "heat_tolerance": null,
+        "drought_tolerance": null
+      },
+      "cultivation": {
+        "sowing_window": null,
+        "crop_duration_days": null,
+        "cultivation_method": null,
+        "nutrient_management": null,
+        "major_risks": [
+          "rainfall variability",
+          "moisture stress"
+        ]
+      },
+      "production": {
+        "yield_range": null,
+        "yield_unit": null,
+        "conditions_and_assumptions": null
+      },
+      "economics": {
+        "cultivation_cost_range": null,
+        "market_price": null,
+        "potential_return_range": null,
+        "currency": "INR",
+        "price_date": null,
+        "assumptions": null
+      },
+      "crop_rotation": {
+        "possible_preceding_crops": [],
+        "possible_following_crops": [],
+        "cautions": "Validate locally recommended rotations."
+      },
+      "evidence": {
+        "sources": [
+          {
+            "title": "Increasing the productivity and profitability of pearlmillet through frontline demonstration in dryland areas of Rajasthan",
+            "url": "https://epubs.icar.org.in/index.php/AAZ/article/view/135576",
+            "geographic_coverage": "Dryland areas of Rajasthan",
+            "publication_date": "2023"
+          }
+        ],
+        "last_reviewed": "2026-10-30",
+        "confidence": "provisional",
+        "validation_notes": "Source supports Rajasthan dryland research; detailed district suitability and cultivation values still require verification."
+      }
+    },
+    {
+      "crop_id": "guar",
+      "crop_name_english": "Cluster Bean (Guar)",
+      "crop_name_hindi": "ग्वार",
+      "crop_category": "legume",
+      "farming_systems": [
+        "open_field",
+        "rainfed"
+      ],
+      "suitable_districts": [],
+      "growing_seasons": [
+        "Kharif"
+      ],
+      "soil_requirements": {
+        "soil_types": [],
+        "ph_range": null,
+        "salinity_tolerance": null,
+        "other_requirements": null
+      },
+      "water_requirements": {
+        "rainfall_mm_range": null,
+        "irrigation_needs": null,
+        "water_quality_requirements": null
+      },
+      "climate_requirements": {
+        "temperature_c_range": null,
+        "heat_tolerance": null,
+        "drought_tolerance": null
+      },
+      "cultivation": {
+        "sowing_window": null,
+        "crop_duration_days": null,
+        "cultivation_method": null,
+        "nutrient_management": null,
+        "major_risks": [
+          "waterlogging",
+          "rainfall variability"
+        ]
+      },
+      "production": {
+        "yield_range": null,
+        "yield_unit": null,
+        "conditions_and_assumptions": null
+      },
+      "economics": {
+        "cultivation_cost_range": null,
+        "market_price": null,
+        "potential_return_range": null,
+        "currency": "INR",
+        "price_date": null,
+        "assumptions": null
+      },
+      "crop_rotation": {
+        "possible_preceding_crops": [],
+        "possible_following_crops": [
+          "mustard",
+          "wheat",
+          "chickpea"
+        ],
+        "cautions": "Rotation options are reported in the source; validate for the local farm."
+      },
+      "evidence": {
+        "sources": [
+          {
+            "title": "Rajasthan Agricultural Competitiveness Project: Guar Value Chain Report",
+            "url": "https://environment.rajasthan.gov.in/content/dam/agriculture/Rajasthan%20Agricultural%20Competitiveness%20Project/valuechainreport/RACP_VC_Guar.pdf",
+            "geographic_coverage": "Multiple regions and districts of Rajasthan",
+            "publication_date": null
+          }
+        ],
+        "last_reviewed": "2026-10-30",
+        "confidence": "provisional",
+        "validation_notes": "Regional practices and cropping combinations are documented; district-level recommendations need current validation."
+      }
+    },
+    {
+      "crop_id": "moth_bean",
+      "crop_name_english": "Moth Bean",
+      "crop_name_hindi": "मोठ",
+      "crop_category": "pulse",
+      "farming_systems": [
+        "open_field",
+        "rainfed"
+      ],
+      "suitable_districts": [],
+      "growing_seasons": [
+        "Kharif"
+      ],
+      "soil_requirements": {
+        "soil_types": [],
+        "ph_range": null,
+        "salinity_tolerance": null,
+        "other_requirements": null
+      },
+      "water_requirements": {
+        "rainfall_mm_range": null,
+        "irrigation_needs": "Primarily rainfed in the documented arid-region context; local needs require validation.",
+        "water_quality_requirements": null
+      },
+      "climate_requirements": {
+        "temperature_c_range": null,
+        "heat_tolerance": null,
+        "drought_tolerance": "Adapted to arid conditions; performance still depends on rainfall, variety and management."
+      },
+      "cultivation": {
+        "sowing_window": "July is reported in the cited western Rajasthan research; confirm local recommendations.",
+        "crop_duration_days": null,
+        "cultivation_method": null,
+        "nutrient_management": null,
+        "major_risks": [
+          "prolonged dry spells",
+          "low and erratic rainfall",
+          "soil moisture shortage"
+        ]
+      },
+      "production": {
+        "yield_range": null,
+        "yield_unit": null,
+        "conditions_and_assumptions": null
+      },
+      "economics": {
+        "cultivation_cost_range": null,
+        "market_price": null,
+        "potential_return_range": null,
+        "currency": "INR",
+        "price_date": null,
+        "assumptions": null
+      },
+      "crop_rotation": {
+        "possible_preceding_crops": [],
+        "possible_following_crops": [],
+        "cautions": "Select rotations using local agricultural recommendations."
+      },
+      "evidence": {
+        "sources": [
+          {
+            "title": "Moth Bean: A Promise of Livelihood Security and Self-Reliance in Pulses",
+            "url": "https://icar.gov.in/en/moth-bean-promise-livelihood-security-and-self-reliance-pulses",
+            "geographic_coverage": "Western Rajasthan and other regions discussed by ICAR",
+            "publication_date": null
+          },
+          {
+            "title": "Popularization of mothbean cultivation in Rajasthan",
+            "url": "https://epubs.icar.org.in/index.php/IndFarm/article/view/149850",
+            "geographic_coverage": "Six districts of western Rajasthan",
+            "publication_date": "2024-03-21"
+          }
+        ],
+        "last_reviewed": "2026-10-30",
+        "confidence": "provisional",
+        "validation_notes": "Research supports arid-region relevance. Reported experimental and demonstration results must not be treated as guaranteed farm yields."
+      }
+    },
+    {
+      "crop_id": "sesame",
+      "crop_name_english": "Sesame",
+      "crop_name_hindi": "तिल",
+      "crop_category": "oilseed",
+      "farming_systems": [
+        "open_field",
+        "rainfed"
+      ],
+      "suitable_districts": [],
+      "growing_seasons": [
+        "Kharif"
+      ],
+      "soil_requirements": {
+        "soil_types": [],
+        "ph_range": null,
+        "salinity_tolerance": null,
+        "other_requirements": null
+      },
+      "water_requirements": {
+        "rainfall_mm_range": null,
+        "irrigation_needs": null,
+        "water_quality_requirements": null
+      },
+      "climate_requirements": {
+        "temperature_c_range": null,
+        "heat_tolerance": null,
+        "drought_tolerance": null
+      },
+      "cultivation": {
+        "sowing_window": null,
+        "crop_duration_days": null,
+        "cultivation_method": null,
+        "nutrient_management": null,
+        "major_risks": [
+          "waterlogging"
+        ]
+      },
+      "production": {
+        "yield_range": null,
+        "yield_unit": null,
+        "conditions_and_assumptions": null
+      },
+      "economics": {
+        "cultivation_cost_range": null,
+        "market_price": null,
+        "potential_return_range": null,
+        "currency": "INR",
+        "price_date": null,
+        "assumptions": null
+      },
+      "crop_rotation": {
+        "possible_preceding_crops": [],
+        "possible_following_crops": [],
+        "cautions": "Confirm local rotation and variety recommendations."
+      },
+      "evidence": {
+        "sources": [
+          {
+            "title": "Crop Science: Sesame crop improvement and production information",
+            "url": "https://icar.gov.in/sites/default/files/2022-05/cs.pdf",
+            "geographic_coverage": "Multiple Indian states, including Rajasthan",
+            "publication_date": null
+          }
+        ],
+        "last_reviewed": "2026-10-30",
+        "confidence": "provisional",
+        "validation_notes": "The source identifies a sesame variety recommended for Rajasthan; it does not establish suitability for every district."
+      }
+    }
+  ],
+  "data_quality_rules": {
+    "missing_data": "Store as null; never treat missing information as zero.",
+    "recommendations": "Validate district suitability before recommending a crop.",
+    "estimates": "Include assumptions, ranges, sources and dates.",
+    "sources": "Record the source, publication date and geographic coverage.",
+    "confidence_levels": [
+      "verified",
+      "provisional",
+      "insufficient_evidence"
+    ]
+  },
+  "crop_record_template": {
+    "crop_id": null,
+    "crop_name_english": null,
+    "crop_name_hindi": null,
+    "crop_category": null,
+    "farming_systems": [],
+    "suitable_districts": [],
+    "growing_seasons": [],
+    "soil_requirements": {
+      "soil_types": [],
+      "ph_range": null,
+      "salinity_tolerance": null,
+      "other_requirements": null
+    },
+    "water_requirements": {
+      "rainfall_mm_range": null,
+      "irrigation_needs": null,
+      "water_quality_requirements": null
+    },
+    "climate_requirements": {
+      "temperature_c_range": null,
+      "heat_tolerance": null,
+      "drought_tolerance": null
+    },
+    "cultivation": {
+      "sowing_window": null,
+      "crop_duration_days": null,
+      "cultivation_method": null,
+      "nutrient_management": null,
+      "major_risks": []
+    },
+    "production": {
+      "yield_range": null,
+      "yield_unit": null,
+      "conditions_and_assumptions": null
+    },
+    "economics": {
+      "cultivation_cost_range": null,
+      "market_price": null,
+      "potential_return_range": null,
+      "currency": "INR",
+      "price_date": null,
+      "assumptions": null
+    },
+    "crop_rotation": {
+      "possible_preceding_crops": [],
+      "possible_following_crops": [],
+      "cautions": null
+    },
+    "evidence": {
+      "sources": [],
+      "last_reviewed": null,
+      "confidence": "insufficient_evidence",
+      "validation_notes": null
+    }
+  },
+  "crop_catalogue": [
+    {
+      "crop_id": "wheat",
+      "name_en": "Wheat",
+      "name_hi": "गेहूँ",
+      "category": "cereal",
+      "profile": {
+        "overview_en": "Wheat is a Rabi cereal that generally requires a suitable cool growing period and reliable water. Assess local soil and irrigation availability before considering it in arid districts.",
+        "overview_hi": "गेहूँ रबी मौसम की अनाज फसल है, जिसे सामान्यतः उपयुक्त ठंडी बढ़वार अवधि और भरोसेमंद पानी की आवश्यकता होती है। शुष्क जिलों में इसे चुनने से पहले स्थानीय मिट्टी और सिंचाई की उपलब्धता का आकलन करें।",
+        "season": "Rabi / रबी",
+        "water_en": "Water availability is a key planning factor. Do not assume suitability without checking farm-level irrigation access and soil conditions.",
+        "water_hi": "पानी की उपलब्धता योजना का एक प्रमुख कारक है। खेत में सिंचाई की सुविधा और मिट्टी की स्थिति जाँचे बिना उपयुक्तता न मानें।"
+      }
+    },
+    {
+      "crop_id": "barley",
+      "name_en": "Barley",
+      "name_hi": "जौ",
+      "category": "cereal",
+      "profile": {
+        "overview_en": "Barley is a cool-season cereal grown mainly for grain, feed and other uses. Its suitability depends on local temperature, soil and water availability.",
+        "overview_hi": "जौ ठंडे मौसम में उगाई जाने वाली अनाज की फसल है। इसकी उपयुक्तता स्थानीय तापमान, मिट्टी और पानी की उपलब्धता पर निर्भर करती है।",
+        "season": "Rabi",
+        "water_en": "Usually grown during the cooler season. Water needs depend on rainfall, soil, variety and crop stage. Avoid assuming that every field can support the same irrigation schedule.",
+        "water_hi": "यह सामान्यतः ठंडे मौसम में उगाई जाती है। पानी की आवश्यकता वर्षा, मिट्टी, किस्म और फसल की अवस्था पर निर्भर करती है।"
+      }
+    },
+    {
+      "crop_id": "maize",
+      "name_en": "Maize",
+      "name_hi": "मक्का",
+      "category": "cereal",
+      "profile": {
+        "overview_en": "Maize is a cereal used for food, feed and industrial purposes. The suitable season and variety depend on local rainfall, temperature and irrigation.",
+        "overview_hi": "मक्का भोजन, पशु आहार और औद्योगिक उपयोग की महत्वपूर्ण फसल है। उपयुक्त मौसम और किस्म स्थानीय वर्षा, तापमान और सिंचाई पर निर्भर करते हैं।",
+        "season": "Season varies by location and water availability",
+        "water_en": "Water demand varies with season and growth stage. Establish whether the field is rainfed or irrigated before considering suitability.",
+        "water_hi": "पानी की आवश्यकता मौसम और फसल की अवस्था के अनुसार बदलती है। उपयुक्तता तय करने से पहले वर्षा-आधारित या सिंचित खेती की स्थिति जानना आवश्यक है।"
+      }
+    },
+    {
+      "crop_id": "sorghum",
+      "name_en": "Sorghum",
+      "name_hi": "ज्वार",
+      "category": "cereal",
+      "profile": {
+        "overview_en": "Sorghum (jowar) is a cereal used for grain and fodder. Some varieties tolerate dry conditions, but performance still depends on rainfall distribution, soil and crop management.",
+        "overview_hi": "ज्वार अनाज और पशु चारे के लिए उगाई जाने वाली फसल है। कुछ किस्में शुष्क परिस्थितियों को सहन कर सकती हैं, लेकिन उत्पादन वर्षा, मिट्टी और प्रबंधन पर निर्भर करता है।",
+        "season": "Often Kharif; seasonal use varies by region and variety",
+        "water_en": "Water needs depend on rainfall, soil and variety. Dry-condition tolerance does not mean the crop can grow without adequate establishment moisture.",
+        "water_hi": "पानी की आवश्यकता वर्षा, मिट्टी और किस्म पर निर्भर करती है। सूखा सहने की क्षमता का अर्थ यह नहीं है कि फसल को शुरुआत में पर्याप्त नमी की आवश्यकता नहीं होती।"
+      }
+    },
+    {
+      "crop_id": "chickpea",
+      "name_en": "Chickpea",
+      "name_hi": "चना",
+      "category": "pulse",
+      "profile": {
+        "overview_en": "Chickpea (gram) is a pulse crop commonly grown in the cool season. Soil moisture, drainage, sowing time and local disease pressure affect its suitability.",
+        "overview_hi": "चना ठंडे मौसम में उगाई जाने वाली प्रमुख दलहनी फसल है। मिट्टी की नमी, जल निकास, बुवाई का समय और स्थानीय रोग इसकी उपयुक्तता को प्रभावित करते हैं।",
+        "season": "Rabi",
+        "water_en": "Often grown with limited irrigation or stored soil moisture, depending on the area. Excess moisture and waterlogging can be harmful.",
+        "water_hi": "इसे क्षेत्र के अनुसार सीमित सिंचाई या मिट्टी में संचित नमी के आधार पर उगाया जा सकता है। अधिक नमी और जलभराव नुकसान पहुँचा सकते हैं।"
+      }
+    },
+    {
+      "crop_id": "mung_bean",
+      "name_en": "Mung Bean",
+      "name_hi": "मूंग",
+      "category": "pulse",
+      "profile": {
+        "overview_en": "Mung bean (green gram) is a short-duration pulse crop. Its planting window depends on local climate, available moisture and the farming system.",
+        "overview_hi": "मूंग कम अवधि वाली दलहनी फसल है। इसकी बुवाई का समय स्थानीय जलवायु, उपलब्ध नमी और खेती की प्रणाली पर निर्भर करता है।",
+        "season": "Often Kharif; other seasons depend on local conditions",
+        "water_en": "Needs adequate moisture during establishment and reproductive growth. Avoid waterlogging; confirm local sowing guidance before planting.",
+        "water_hi": "अंकुरण और फलियों के विकास के समय पर्याप्त नमी आवश्यक है। जलभराव से बचें और बुवाई से पहले स्थानीय कृषि सलाह की पुष्टि करें।"
+      }
+    },
+    {
+      "crop_id": "lentil",
+      "name_en": "Lentil",
+      "name_hi": "मसूर",
+      "category": "pulse",
+      "profile": {
+        "overview_en": "Lentil is a cool-season pulse crop. Suitability depends on winter conditions, soil drainage, moisture availability and locally adapted varieties.",
+        "overview_hi": "मसूर ठंडे मौसम में उगाई जाने वाली दलहनी फसल है। इसकी उपयुक्तता सर्दियों की परिस्थितियों, मिट्टी के जल निकास, नमी और स्थानीय किस्मों पर निर्भर करती है।",
+        "season": "Rabi",
+        "water_en": "Often grown with limited water where conditions permit. Avoid waterlogging and verify local suitability before introducing it to a new area.",
+        "water_hi": "अनुकूल परिस्थितियों में इसे सीमित पानी के साथ उगाया जा सकता है। जलभराव से बचें और नए क्षेत्र में उगाने से पहले स्थानीय उपयुक्तता की पुष्टि करें।"
+      }
+    },
+    {
+      "crop_id": "mustard",
+      "name_en": "Mustard",
+      "name_hi": "सरसों",
+      "category": "oilseed",
+      "profile": {
+        "overview_en": "Mustard is an important Rabi oilseed crop. Suitability depends on sowing time, temperature, soil moisture and local pest and disease pressure.",
+        "overview_hi": "सरसों एक महत्वपूर्ण रबी तिलहन फसल है। इसकी उपयुक्तता बुवाई के समय, तापमान, मिट्टी की नमी और स्थानीय कीट एवं रोग दबाव पर निर्भर करती है।",
+        "season": "Rabi / रबी",
+        "water_en": "Water needs vary with rainfall, soil and crop stage. Local agricultural guidance should inform irrigation decisions.",
+        "water_hi": "पानी की आवश्यकता वर्षा, मिट्टी और फसल की अवस्था के अनुसार बदलती है। सिंचाई के लिए स्थानीय कृषि सलाह लें।"
+      }
+    },
+    {
+      "crop_id": "groundnut",
+      "name_en": "Groundnut",
+      "name_hi": "मूंगफली",
+      "category": "oilseed",
+      "profile": {
+        "overview_en": "Groundnut (peanut) is an oilseed and food crop. It generally requires suitable soil structure and moisture conditions; harvest and pod development are affected by soil properties.",
+        "overview_hi": "मूंगफली तिलहन और खाद्य फसल है। इसके लिए उपयुक्त मिट्टी और नमी आवश्यक हैं। मिट्टी के गुण फलियों के विकास और खुदाई को प्रभावित करते हैं।",
+        "season": "Often Kharif; local seasons vary",
+        "water_en": "Moisture is important during establishment, flowering and pod development. Water needs and feasibility depend on rainfall, soil and irrigation access.",
+        "water_hi": "अंकुरण, फूल आने और फलियों के विकास के समय नमी महत्वपूर्ण है। पानी की आवश्यकता वर्षा, मिट्टी और सिंचाई की उपलब्धता पर निर्भर करती है।"
+      }
+    },
+    {
+      "crop_id": "castor",
+      "name_en": "Castor",
+      "name_hi": "अरंडी",
+      "category": "oilseed",
+      "profile": {
+        "overview_en": "Castor is an industrial oilseed crop. Its performance depends on the local climate, soil conditions, variety and management practices.",
+        "overview_hi": "अरंडी औद्योगिक उपयोग के तेल के लिए उगाई जाने वाली फसल है। इसकी वृद्धि स्थानीय जलवायु, मिट्टी, किस्म और खेती के प्रबंधन पर निर्भर करती है।",
+        "season": "Often Kharif; confirm the local production calendar",
+        "water_en": "Water requirements vary with rainfall and crop stage. Check locally recommended varieties, spacing and management before planting.",
+        "water_hi": "पानी की आवश्यकता वर्षा और फसल की अवस्था के अनुसार बदलती है। बुवाई से पहले स्थानीय रूप से अनुशंसित किस्म, दूरी और प्रबंधन की जानकारी लें।"
+      }
+    },
+    {
+      "crop_id": "cumin",
+      "name_en": "Cumin",
+      "name_hi": "जीरा",
+      "category": "spice",
+      "profile": {
+        "overview_en": "Cumin is a Rabi spice crop requiring careful attention to sowing conditions, soil drainage and disease risk. Local extension guidance is important.",
+        "overview_hi": "जीरा रबी मौसम की मसाला फसल है। इसकी खेती में बुवाई की परिस्थितियों, मिट्टी के जल निकास और रोग जोखिम पर विशेष ध्यान देना आवश्यक है। स्थानीय कृषि सलाह महत्वपूर्ण है।",
+        "season": "Rabi / रबी",
+        "water_en": "Avoid blanket irrigation advice; decisions depend on soil, weather and crop stage.",
+        "water_hi": "सभी खेतों के लिए एक जैसी सिंचाई सलाह उचित नहीं है; निर्णय मिट्टी, मौसम और फसल की अवस्था पर निर्भर करता है।"
+      }
+    },
+    {
+      "crop_id": "coriander",
+      "name_en": "Coriander",
+      "name_hi": "धनिया",
+      "category": "spice",
+      "profile": {
+        "overview_en": "Coriander is grown for its leaves and/or seeds. Production purpose, variety, temperature and local market requirements influence crop management.",
+        "overview_hi": "धनिया पत्तियों और/या बीजों के लिए उगाया जाता है। खेती का उद्देश्य, किस्म, तापमान और स्थानीय बाजार की आवश्यकताएँ इसके प्रबंधन को प्रभावित करती हैं।",
+        "season": "Commonly Rabi for seed production; local practices vary",
+        "water_en": "Maintain suitable soil moisture without waterlogging. Irrigation frequency should reflect soil type, weather and whether leaves or seeds are being produced.",
+        "water_hi": "जलभराव से बचते हुए मिट्टी में उपयुक्त नमी बनाए रखें। सिंचाई का अंतर मिट्टी, मौसम और पत्तियों या बीजों के उत्पादन के उद्देश्य पर निर्भर करता है।"
+      }
+    },
+    {
+      "crop_id": "fenugreek",
+      "name_en": "Fenugreek",
+      "name_hi": "मेथी",
+      "category": "spice",
+      "profile": {
+        "overview_en": "Fenugreek (methi) is grown for leafy greens and seeds. The variety and harvest purpose influence sowing time and crop management.",
+        "overview_hi": "मेथी पत्तियों और बीजों के लिए उगाई जाती है। किस्म और कटाई का उद्देश्य बुवाई के समय तथा फसल प्रबंधन को प्रभावित करते हैं।",
+        "season": "Commonly Rabi; local practices vary",
+        "water_en": "Requires suitable moisture for establishment and growth. Avoid excessive irrigation and waterlogging; adapt watering to soil and weather.",
+        "water_hi": "अंकुरण और वृद्धि के लिए उपयुक्त नमी आवश्यक है। अधिक सिंचाई और जलभराव से बचें तथा मिट्टी और मौसम के अनुसार पानी दें।"
+      }
+    },
+    {
+      "crop_id": "garlic",
+      "name_en": "Garlic",
+      "name_hi": "लहसुन",
+      "category": "spice",
+      "profile": {
+        "overview_en": "Garlic is a bulb crop used as a vegetable, spice and food ingredient. It requires suitable planting material, soil drainage and a locally appropriate production schedule.",
+        "overview_hi": "लहसुन एक कंद वाली फसल है जिसका उपयोग सब्जी, मसाले और भोजन में किया जाता है। इसके लिए अच्छी रोपण सामग्री, उचित जल निकास और स्थानीय मौसम के अनुकूल उत्पादन कार्यक्रम आवश्यक हैं।",
+        "season": "Commonly Rabi",
+        "water_en": "Maintain relatively even soil moisture during active growth while avoiding waterlogging. Irrigation should be adjusted to soil, weather and crop stage.",
+        "water_hi": "सक्रिय वृद्धि के दौरान मिट्टी में उचित नमी बनाए रखें और जलभराव से बचें। सिंचाई मिट्टी, मौसम और फसल की अवस्था के अनुसार करें।"
+      }
+    },
+    {
+      "crop_id": "onion",
+      "name_en": "Onion",
+      "name_hi": "प्याज",
+      "category": "vegetable",
+      "profile": {
+        "overview_en": "Onion is a bulb vegetable grown for household use and markets. Variety, day length, temperature, planting material and storage requirements affect crop choice.",
+        "overview_hi": "प्याज बाजार और घरेलू उपयोग के लिए उगाई जाने वाली कंद वाली सब्जी है। किस्म, दिन की लंबाई, तापमान, रोपण सामग्री और भंडारण की आवश्यकताएँ फसल चयन को प्रभावित करती हैं।",
+        "season": "Season varies by region and production system",
+        "water_en": "Consistent moisture is important during bulb development, but waterlogging should be avoided. Local production and harvest guidance is essential.",
+        "water_hi": "कंद के विकास के दौरान नियमित नमी महत्वपूर्ण है, लेकिन जलभराव से बचना चाहिए। स्थानीय उत्पादन और कटाई संबंधी सलाह आवश्यक है।"
+      }
+    },
+    {
+      "crop_id": "chilli",
+      "name_en": "Chilli",
+      "name_hi": "मिर्च",
+      "category": "vegetable",
+      "profile": {
+        "overview_en": "Chilli is grown for fresh green fruits or dried red fruits. Variety, temperature, disease pressure, market purpose and open-field or protected cultivation affect management.",
+        "overview_hi": "मिर्च हरी या सूखी लाल फलियों के लिए उगाई जाती है। किस्म, तापमान, रोगों का दबाव, बाजार का उद्देश्य और खुले खेत या संरक्षित खेती की स्थिति प्रबंधन को प्रभावित करती है।",
+        "season": "Varies by region, variety and cultivation system",
+        "water_en": "Avoid both prolonged water stress and waterlogging. Irrigation and pest management should be adapted to local conditions and whether the crop is grown in the open or under protection.",
+        "water_hi": "लंबे समय तक पानी की कमी और जलभराव दोनों से बचें। सिंचाई और कीट-रोग प्रबंधन स्थानीय परिस्थितियों तथा खुले खेत या संरक्षित खेती के अनुसार करें।"
+      }
+    },
+    {
+      "crop_id": "capsicum",
+      "name_en": "Capsicum",
+      "name_hi": "शिमला मिर्च",
+      "category": "vegetable",
+      "profile": {
+        "overview_en": "Capsicum is a high-value vegetable that may be grown in open fields or protected structures where conditions permit. Temperature, pests, disease and market access are important considerations.",
+        "overview_hi": "शिमला मिर्च एक उच्च-मूल्य वाली सब्जी है जिसे उपयुक्त परिस्थितियों में खुले खेत या संरक्षित संरचना में उगाया जा सकता है। तापमान, कीट, रोग और बाजार तक पहुँच महत्वपूर्ण हैं।",
+        "season": "Depends on location and growing system / स्थान और खेती की प्रणाली पर निर्भर",
+        "water_en": "Requires careful irrigation management; protected cultivation also requires monitoring of temperature and humidity.",
+        "water_hi": "सिंचाई का सावधानीपूर्वक प्रबंधन आवश्यक है; संरक्षित खेती में तापमान और आर्द्रता की निगरानी भी जरूरी है।"
+      }
+    },
+    {
+      "crop_id": "ber",
+      "name_en": "Ber",
+      "name_hi": "बेर",
+      "category": "fruit",
+      "profile": {
+        "overview_en": "Ber (Indian jujube) is a fruit tree cultivated in several dry and semi-arid regions. Variety, soil, establishment care and access to markets affect orchard performance.",
+        "overview_hi": "बेर एक फलदार वृक्ष है जिसे कई शुष्क और अर्ध-शुष्क क्षेत्रों में उगाया जाता है। किस्म, मिट्टी, शुरुआती देखभाल और बाजार तक पहुँच बाग की सफलता को प्रभावित करते हैं।",
+        "season": "Perennial fruit crop / बहुवर्षीय फल फसल",
+        "water_en": "Water needs vary with tree age, soil and climate; young plants need particular attention during establishment.",
+        "water_hi": "पानी की आवश्यकता पेड़ की उम्र, मिट्टी और जलवायु के अनुसार बदलती है; नए पौधों की स्थापना के समय विशेष देखभाल जरूरी है।"
+      }
+    },
+    {
+      "crop_id": "pomegranate",
+      "name_en": "Pomegranate",
+      "name_hi": "अनार",
+      "category": "fruit",
+      "profile": {
+        "overview_en": "Pomegranate is a fruit tree suited to some dry and semi-arid production systems. Commercial success depends on cultivar, soil drainage, water quality, orchard management and market access.",
+        "overview_hi": "अनार एक फलदार वृक्ष है जो कुछ शुष्क और अर्ध-शुष्क क्षेत्रों में उगाया जाता है। व्यावसायिक सफलता किस्म, मिट्टी के जल निकास, पानी की गुणवत्ता, बाग प्रबंधन और बाजार तक पहुँच पर निर्भर करती है।",
+        "season": "Perennial orchard; planting and flowering management are location-specific",
+        "water_en": "Irrigation scheduling is important, especially during establishment and fruit development. Check water quality, salinity and local horticulture recommendations.",
+        "water_hi": "विशेषकर पौध स्थापना और फल विकास के दौरान सिंचाई का सही प्रबंधन महत्वपूर्ण है। पानी की गुणवत्ता, लवणता और स्थानीय बागवानी सलाह की जाँच करें।"
+      }
+    },
+    {
+      "crop_id": "date_palm",
+      "name_en": "Date Palm",
+      "name_hi": "खजूर",
+      "category": "fruit",
+      "profile": {
+        "overview_en": "Date palm is a perennial fruit crop associated with hot climates. It needs long-term planning, suitable planting material, pollination management and dependable water access.",
+        "overview_hi": "खजूर गर्म जलवायु में उगाया जाने वाला बहुवर्षीय फलदार वृक्ष है। इसके लिए दीर्घकालीन योजना, उपयुक्त पौध सामग्री, परागण प्रबंधन और विश्वसनीय जल उपलब्धता आवश्यक है।",
+        "season": "Perennial crop; flowering and harvest calendars depend on location and cultivar",
+        "water_en": "Water demand depends on tree age, soil, climate and irrigation method. Assess water availability and salinity before establishing an orchard.",
+        "water_hi": "पानी की आवश्यकता वृक्ष की आयु, मिट्टी, जलवायु और सिंचाई विधि पर निर्भर करती है। बाग लगाने से पहले पानी की उपलब्धता और लवणता का आकलन करें।"
+      }
+    },
+    {
+      "crop_id": "isabgol",
+      "name_en": "Isabgol",
+      "name_hi": "इसबगोल",
+      "category": "medicinal",
+      "profile": {
+        "overview_en": "Isabgol (psyllium) is a medicinal seed crop grown in suitable cool-season environments. Soil, drainage, sowing time and access to appropriate seed affect its feasibility.",
+        "overview_hi": "इसबगोल औषधीय बीजों के लिए उगाई जाने वाली फसल है, जिसे उपयुक्त ठंडे मौसम की परिस्थितियों में उगाया जाता है। मिट्टी, जल निकास, बुवाई का समय और बीज की उपलब्धता इसकी उपयुक्तता को प्रभावित करते हैं।",
+        "season": "Rabi",
+        "water_en": "Requires careful moisture management; excessive moisture and unsuitable weather can damage the crop. Confirm locally recommended practices before sowing.",
+        "water_hi": "इस फसल में नमी का सावधानीपूर्वक प्रबंधन आवश्यक है। अधिक नमी और अनुपयुक्त मौसम से नुकसान हो सकता है। बुवाई से पहले स्थानीय अनुशंसित विधियों की पुष्टि करें।"
+      }
+    },
+    {
+      "crop_id": "alfalfa",
+      "name_en": "Lucerne",
+      "name_hi": "लूसर्न",
+      "category": "fodder",
+      "profile": {
+        "overview_en": "Lucerne (alfalfa) is a perennial forage legume used for livestock feed. Its suitability depends strongly on water availability, soil drainage, salinity and the intended cutting system.",
+        "overview_hi": "लूसर्न (अल्फाल्फा) पशु चारे के लिए उगाई जाने वाली बहुवर्षीय दलहनी चारा फसल है। इसकी उपयुक्तता पानी की उपलब्धता, मिट्टी के जल निकास, लवणता और कटाई की प्रणाली पर निर्भर करती है।",
+        "season": "Perennial forage; establishment season depends on local conditions",
+        "water_en": "Repeated cutting requires dependable moisture. Assess irrigation access, salinity and drainage before recommending it for a water-limited farm.",
+        "water_hi": "बार-बार कटाई के लिए भरोसेमंद नमी आवश्यक है। कम पानी वाले खेत में इसकी सलाह देने से पहले सिंचाई, लवणता और जल निकास का आकलन करें।"
+      }
+    },
+    {
+      "crop_id": "gram",
+      "name_en": "Chickpea (Gram)",
+      "name_hi": "चना",
+      "category": "Rabi pulse",
+      "profile": {
+        "overview_en": "Chickpea (gram) is a Rabi pulse crop. Soil drainage, sowing date, stored soil moisture and disease management influence performance.",
+        "overview_hi": "चना रबी मौसम की दलहनी फसल है। मिट्टी का जल निकास, बुवाई की तारीख, मिट्टी में उपलब्ध नमी और रोग प्रबंधन इसके प्रदर्शन को प्रभावित करते हैं।",
+        "season": "Rabi / रबी",
+        "water_en": "Avoid waterlogging. Irrigation decisions depend on soil moisture, rainfall and the crop's growth stage.",
+        "water_hi": "खेत में पानी भरने से बचें। सिंचाई का निर्णय मिट्टी की नमी, वर्षा और फसल की अवस्था के आधार पर करें।"
+      }
+    },
+    {
+      "crop_id": "green_chilli",
+      "name_en": "Green chilli",
+      "name_hi": "हरी मिर्च",
+      "category": "Horticulture",
+      "profile": {
+        "overview_en": "Green chilli is a vegetable and spice crop. Variety choice, temperature, soil drainage, irrigation and pest management influence production.",
+        "overview_hi": "हरी मिर्च सब्जी और मसाला फसल है। किस्म का चयन, तापमान, मिट्टी का जल निकास, सिंचाई और कीट प्रबंधन उत्पादन को प्रभावित करते हैं।",
+        "season": "Depends on local climate and production system / स्थानीय जलवायु और खेती की प्रणाली पर निर्भर",
+        "water_en": "Maintain appropriate soil moisture without prolonged waterlogging; use locally recommended practices.",
+        "water_hi": "मिट्टी में उचित नमी बनाए रखें और लंबे समय तक पानी भरने से बचें; स्थानीय अनुशंसित विधियों का पालन करें।"
+      }
+    },
+    {
+      "crop_id": "red_chilli",
+      "name_en": "Red chilli",
+      "name_hi": "लाल मिर्च",
+      "category": "Horticulture",
+      "profile": {
+        "overview_en": "Red chilli is grown for mature fruits used as a spice. Variety, harvest maturity, drying conditions, disease control and market quality affect the final product.",
+        "overview_hi": "लाल मिर्च को मसाले के रूप में उपयोग होने वाले पके फलों के लिए उगाया जाता है। किस्म, पकने की अवस्था, सुखाने की स्थिति, रोग नियंत्रण और बाजार की गुणवत्ता अंतिम उत्पाद को प्रभावित करते हैं।",
+        "season": "Depends on local climate and production system / स्थानीय जलवायु और खेती की प्रणाली पर निर्भर",
+        "water_en": "Irrigation should suit soil and crop stage; drying and storage need protection from excess moisture.",
+        "water_hi": "सिंचाई मिट्टी और फसल की अवस्था के अनुसार करें; सुखाने और भंडारण के दौरान अधिक नमी से बचाव जरूरी है।"
+      }
+    }
+  ]
+}
